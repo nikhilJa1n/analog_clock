@@ -16,6 +16,7 @@ function clock(){
     setAngle('h-hand',h);
     setAngle('m-hand',m);
     setAngle('s-hand',s);
+    setAngle('s-tail',s+360);
 
     //getting time
     h=d.getHours();

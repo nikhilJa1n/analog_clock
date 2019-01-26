@@ -25,7 +25,7 @@
 #m-hand{
     stroke-width: 2px;
 }
-#s-hand{
+#s-hand,#s-tail{
     stroke-width: 1px;
     stroke: brown;
 }
