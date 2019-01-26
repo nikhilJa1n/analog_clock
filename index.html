@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Analog Clock</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="analog-clock">
+            <svg width="200" height="200">
+                <circle id="analog-clock-face" cx="100" cy="100" r="95" />
+                <line id="h-hand" x1="100" y1="100" x2="100" y2="38"/>
+                <line id="m-hand" x1="100" y1="100" x2="100" y2="20"/>
+                <line id="s-hand" x1="100" y1="100" x2="100" y2="12"/>
+                <text x="92" y="21">12</text>
+                <text x="184" y="106">3</text>
+                <text x="96" y="190">6</text>
+                <text x="9" y="106">9</text>
+            </svg>
+            <div class="analog-clock-text">
+                <span id="hr">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+                <span id="suffix">--</span>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
